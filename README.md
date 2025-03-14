@@ -69,4 +69,4 @@ I invented a Zero-Knowledge Proof Protocol for Randomized Card Games: A cryptogr
 假設輪到 $A$ 抽牌:
 每回合由對手 $B$ 指定一個 $index$，該回合玩家抽出 $P_{index}$ ，放入手牌。
 - 由於 $B$ 不知道 $A$ 會怎麼排序 Permutation， $A$ 也不知道 $B$ 會指定哪一個 $index$ ，所以整個過程可以視為隨機抽牌，也就是洗牌過了。 
-- 在此情景下，$B$ 可以記錄至今的回合指定哪些 $index$ ，這個集合就是象徵了手牌的概念。後續也可以針對這個集合去做猜牌的動作
+- 在此情景下， $B$ 可以記錄至今的回合指定哪些 $index$ ，這個集合就是象徵了手牌的概念。後續也可以針對這個集合去做猜牌的動作
