@@ -48,7 +48,7 @@ I invented a Zero-Knowledge Proof Protocol for Randomized Card Games: A cryptogr
 
 #### 正確性
 
-- 若玩家知道至少一個知識，那他一定能通過這個ZKP測驗。在限定$b_{sum}$的總和下他有 $m-1$ 個自由度能夠分配其餘的 $b_i$，剩下只需要完成原本的「給對手任意決定的 $b_j$ 的測驗」
+- 若玩家知道至少一個知識，那他一定能通過這個ZKP測驗。在限定 $b_{sum}$ 的總和下他有 $m-1$ 個自由度能夠分配其餘的 $b_i$，剩下只需要完成原本的「給對手任意決定的 $b_j$ 的測驗」
 - 若玩家一個知識都沒有掌握，那他至少需要解出其中一個 discrete logarithm problem，然而這不可能 (NP-Hard)
 - 驗證者只能驗證，不能回推任何的 Private Key，也不能知道證明人知道的是哪一個知識，因為在他眼中，所有 $C$ 、 $r$ 、 $b$ 都是$[0,N-1]$的隨機數。
 
