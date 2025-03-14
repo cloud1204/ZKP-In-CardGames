@@ -3,6 +3,10 @@ This is my final project of the lecture "Cryptography Engineering".
 
 I invented a Zero-Knowledge Proof Protocol for Randomized Card Games: A cryptographic protocol enabling secure, verifiable, and privacy-preserving card shuffling and deal verification without revealing card identities. Belows are the descriptions in Chinese.
 
+## Simulation Program
+The simulation of the ZKP (proof generater, validator) is implemented in python.
+There is an text UI with detailed description, so you can directly execute example.py for testing.
+
 ## 排堆加密
 - 遊戲開始時，玩家 $A$ 和 $B$ 需要分別決定各自的 Private Permutation $P_A$ 與 $P_B$，皆為 $1$ 到 $n$ 的排列。兩位玩家將各自的 $P = {P_1, P_2, P_3, ... P_n}$ 透過以下方法加密:
 
