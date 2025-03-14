@@ -4,7 +4,7 @@ This is my final project of the lecture "Cryptography Engineering".
 I invented a Zero-Knowledge Proof Protocol for Randomized Card Games: A cryptographic protocol enabling secure, verifiable, and privacy-preserving card shuffling and deal verification without revealing card identities. Belows are the descriptions in Chinese.
 
 ## Simulation Program
-The simulation of the ZKP (proof generater, validator) is implemented in python.
+The simulation of the ZKP (Including the proof generater and validator) is implemented in python.
 There is an text UI with detailed description, so you can directly execute example.py for testing.
 
 ## 排堆加密
